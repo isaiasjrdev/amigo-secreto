@@ -37,3 +37,9 @@ function embaralha(lista) {
             [lista[indiceAleatorio], lista[indice - 1]];
     }
 }
+
+function reiniciar() {
+    amigos = [];
+    document.querySelector('#lista-amigos').innerHTML = '';
+    document.querySelector('#lista-sorteio').innerHTML = '';
+}
